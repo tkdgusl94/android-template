@@ -19,4 +19,8 @@ dependencies {
 
     implementation(Google.HILT_ANDROID)
     kapt          (Google.HILT_ANDROID_COMPILER)
+
+    testImplementation(UnitTest.JUNIT)
+    testImplementation(UnitTest.ARCH_CORE)
+    testImplementation(UnitTest.MOCKK)
 }

@@ -2,7 +2,6 @@ object Modules {
     const val DOMAIN = ":domain"
     const val DATA = ":data"
     const val PRESENTATION = ":presentation"
-    const val COMMON = ":common"
 }
 
 object Versions {
@@ -34,6 +33,8 @@ object Versions {
     const val JODA_TIME = "2.10.10"
 
     const val JUNIT = "4.13.2"
+    const val MOCKK = "1.10.0"
+    const val ARCH_CORE = "2.1.0"
     const val ANDROID_JUNIT = "1.1.2"
     const val ESPRESSO_CORE = "3.3.0"
 }
@@ -85,8 +86,8 @@ object Libraries {
     const val JODA_TIME                  = "joda-time:joda-time:${Versions.JODA_TIME}"
 }
 
-object Test {
-    const val JUNIT         = "junit:junit:${Versions.JUNIT}"
-    const val ANDROID_JUNIT = "androidx.test.ext:junit:${Versions.ANDROID_JUNIT}"
-    const val ESPRESSO_CORE = "androidx.test.espresso:espresso-core:${Versions.ESPRESSO_CORE}"
+object UnitTest {
+    const val JUNIT     = "junit:junit:${Versions.JUNIT}"
+    const val ARCH_CORE = "androidx.arch.core:core-testing:${Versions.ARCH_CORE}"
+    const val MOCKK     = "io.mockk:mockk:${Versions.MOCKK}"
 }
