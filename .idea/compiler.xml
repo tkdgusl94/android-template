@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.8">
+      <module name="android-template.app" target="11" />
+      <module name="android-template.buildSrc" target="11" />
+      <module name="android-template.data" target="11" />
+      <module name="android-template.presentation" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
