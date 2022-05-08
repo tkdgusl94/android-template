@@ -5,7 +5,7 @@ object Modules {
 }
 
 object Versions {
-    const val KOTLIN_VERSION = "1.5.21"
+    const val KOTLIN_VERSION = "1.5.30"
     const val KOTLINX_COROUTINES = "1.5.0"
     const val BUILD_GRADLE = "4.2.2"
 
